@@ -1,0 +1,143 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header {
+    display: flex;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid grey;
+    justify-content: space-between;
+}
+
+#search-area {
+    display: flex;
+}
+
+#search-bar {
+    width: 385px;
+    height: 32px;
+    border: 1px solid #000;
+}
+
+#search-button {
+    width: 65px;
+    height: 32px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+header div:first-child {
+    display: flex;
+    width: 250px;
+}
+
+header div:first-child img:first-child {
+    margin-left: 20px;
+}
+
+figure {
+    display: flex;
+    align-items: center;
+}
+
+figcaption {
+    font-size: 30px;
+}
+
+header div:last-child {
+    display: flex;
+    width: 204px;
+    justify-content: space-around;
+}
+
+#main-video-section {
+    width: 900px;
+}
+
+#main-video-section iframe {
+    margin: 20px;
+}
+
+#main-video-section p{
+    margin-left: 20px;
+    margin-bottom: 18px;
+}
+
+#main-video-section #title {
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+}
+
+#main-video-section #stats {
+    font-size: 16px;
+    color: rgb(108, 106, 106);
+}
+#video-div {
+    display: flex;
+}
+
+aside article {
+    display: flex;
+    margin-top: 20px;
+}
+
+article .information-container {
+    margin-left: 10px;
+    margin-right: 15px;
+}
+article .information-container p {
+    margin-top: 5px;
+}
+
+p.video-title {
+    font-weight: 500;
+}
+
+div.video-stats p {
+    color: grey;
+    font-weight: 500;
+}
+
